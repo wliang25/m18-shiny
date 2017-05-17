@@ -22,6 +22,6 @@ shinyServer(function(input, output) {
       return(BuildMap(joined.data, input$mapvar))
   }) 
   
-  # Create a `scatter` property on your `output` object. That property shoudl be a `renderPlotly` object that returns a scatterplot (`BuildScatter`)
+  # Create a `scatter` property on your `output` object. That property should be a `renderPlotly` object that returns a scatterplot (`BuildScatter`)
   
 })
